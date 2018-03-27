@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: gray;
+  height: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-body {
+  margin: 0 auto;
+  background-color: gainsboro;
+  width: 80%;
+  height: 80%;
+
+  overflow: auto;
+
+}
+
+.App-body img.profile {
+
+  float: left;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
